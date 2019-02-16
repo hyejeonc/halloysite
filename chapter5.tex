@@ -1,0 +1,30 @@
+%===================================== CHAP 5 =================================
+
+\chapter{Analysis}
+
+\begin{table*}[t]
+    \centering
+        \begin{tabular}{c c c c c c c c c}
+            \toprule
+            \midrule
+                && \multicolumn{5}{c}{Predicted valence}\\ 
+                && \multiclumn{2}{c}{uniblock} diblock  & triblock & - & - & tetrablock  \\ \cmidrule{3-7}
+                \multicolumn{1}{c}{\multirow{5}{*}{\begin{sideways}\parbox{2cm}{\centering Actual \\ valence}\end{sideways}}}   &
+                \multicolumn{1}{l}{1:-} & m40n & m40p & - & - &  \\
+                \multicolumn{1}{c}{what it is}    &
+                \multicolumn{1}{l}{1:1} & - & - & m20m20 & m10m20m10 & m10m10m10m10 & m5m10m5   \\
+                \multicolumn{1}{c}{}    &
+                \multicolumn{1}{l}{2:1} & - & - & m20m10 & m10m10m10 & m5m20m5   \\
+                \multicolumn{1}{c}{}    &   
+                \multicolumn{1}{l}{3:1} & - & - & m30m10 & m15m10m15 & m5m30m5   \\
+                \multicolumn{1}{c}{}    &
+               % \multicolumn{1}{l}{Positive} & - & - & m30m10 & m15m10m15 & m5m30m5  \\
+            \midrule
+            \bottomrule
+        \end{tabular}
+        \centering
+        \caption{Classification results for the valence dimension.}
+        \label{tab:sam_count}
+\end{table*}
+
+\cleardoublepage
